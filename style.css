@@ -1,0 +1,198 @@
+
+
+.nav-container{
+    box-shadow: 0px 0px 5px black;
+    width:400px;
+    align-self: center;
+    margin-left:auto;
+    margin-right: auto;
+    height: 40px;
+    text-align: center;
+    border-radius: 100px;
+    
+    left: 34%;
+    z-index: 2;
+    background-color: white;
+
+}
+.nav-container a{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: 1rem;
+    position: relative;
+    top:10px;
+    font-weight: bold
+    
+}
+.nav-container a:hover{
+color: rgb(73, 226, 168);
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+
+.about-container .left{
+    
+    text-align: center;
+    
+    float: left;
+    width:400px;
+    
+    margin-left:10%;
+
+    
+}
+footer{
+    clear: both;
+}
+
+.about-container h1{
+    font-size: 4rem;
+
+    
+}
+.about-container p{
+    font-size:1rem;
+    line-height: 28px;
+}
+.about-container .right{
+
+   
+     float: right;
+     width: 500px;
+
+    
+    
+}
+.about-container .right img{
+    width:42 0px;
+    height: 300px;
+    rotate: 6deg;
+}
+i{
+    font-size:1.5rem;
+}
+.left a{
+    margin-left: 10%;
+}
+.project-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+}
+
+.cards{
+    
+    border-radius: 20px;
+    width: 350px;
+    height:350px;
+    margin-top:20px;
+    box-shadow: 0px 0px 5px lightgreen;
+    text-align: center;
+    
+}
+.cards:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px black;
+}
+.cards i,a{
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+.cards i,a:hover{
+    color: lightgreen;
+}
+.footer-line{
+    width: 96%;
+    height: 2px ;
+    background-color: black;
+    margin-left: 2%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+footer > .left > a{
+    float: left;
+  
+    
+    text-align: center;
+    
+}
+ footer .left{
+    width: 60%;
+    padding: 20px 0px;
+    
+
+}
+@media (min-width: 600px) and (max-width: 1050px) {
+ 
+    .about-container .left{
+        width: 70%;
+        margin-left:15%;
+        
+        
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .about-container .right{
+        width: auto;
+        margin-left: 25%;
+        margin-right: 25%
+
+    }
+   
+  }
+  @media (max-width: 600px) {
+   footer{
+    flex-direction: column;
+   }
+   .right{
+    width:100%;
+    
+    
+   }
+   .right img{
+    align-items: center;
+    margin-left: 30%;
+   }
+   .left h1{
+    font-size: 2rem;
+    text-align: center;
+    
+   }
+   .about-container .left{
+    
+    text-align: center;
+    
+    float: left;
+    
+    margin-left:0;
+
+    
+}
+footer .left{
+    width: 100%;
+    padding: 20px 0px;
+}
+.nav-container{
+    margin-bottom: 15px;
+}
+  }
